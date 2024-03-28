@@ -1,0 +1,40 @@
+h1{
+	color:white;
+	font-family:Georgia;
+}
+body{
+	background:black;
+}
+h2{
+	color:white;
+	font-family:Georgia;
+}
+h3{
+	color:white;
+	font-family:Georgia;
+}
+
+.centered {
+	text-align: center;
+	
+}
+
+.column {
+	text-align: justify;
+	text-justify: inter-word;
+	float: left;
+	width: 30%;
+	padding: 20px;
+}
+
+.row:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%
+	}
+}
