@@ -19,6 +19,12 @@ h3{
 	
 }
 
+.col {
+	text-align: center;
+	
+}
+
+
 .column {
 	text-align: justify;
 	text-justify: inter-word;
